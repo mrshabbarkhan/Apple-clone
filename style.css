@@ -362,9 +362,9 @@ footer{
     #icon{
         display: block;
     }
-    #icone-{
+    /* #icone-{
         display: block;
-    }
+    } */
 
     nav li{
         display: none;
@@ -450,6 +450,8 @@ footer{
         /* margin-top: 50px; */
         /* margin-left: 70px; */
         animation: loop 8s infinite ;
+        background-size: cover;
+        background-position: center;
     }
     .top{
         display: none;
