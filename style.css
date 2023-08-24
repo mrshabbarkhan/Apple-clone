@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #454545;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 165px;
+    justify-content: space-around;
+}
+
+.nav2 {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.nav2 a:hover {
+    text-decoration: underline;
+}
+
+#icon {
+    font-size: 18px;
+    opacity: 80%;
+}
+
+#icone- {
+    font-size: 15px;
+}
+
+li {
+    opacity: 60%;
+    font-size: 12px;
+    list-style: none;
+}
+
+.hero-section {
+    height: 550px;
+    width: 100%;
+    background-color: #F3F2F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+.hero-section h1 {
+    font-size: 53px;
+}
+
+.hero-section {
+    height: 600px;
+    font-size: 25px;
+}
+
+.hero-section a {
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 20px;
+}
+
+.hero-section a:hover {
+    text-decoration: underline;
+}
+
+#arrow {
+    font-size: 14px;
+}
+
+#left {
+    padding-left: 35px;
+}
+
+.hero-section2 {
+    margin-top: 13px;
+    height: 570px;
+    width: 100%;
+    background-image: url(hero_iphone14pro_spring__9xo85pm6sbmm_large\ \(1\).jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+#h1 {
+    font-size: 50px;
+}
+
+#p {
+    font-size: 30px;
+}
+
+.color{
+    background-color: #F3F2F5;
+    position: relative;
+    left: 240px;
+    top: 330px;
+    height: 30px;
+    width: 100px;
+    /* border: 1px solid red; */
+}
+.hero-section2 a {
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.hero-section2 a:hover {
+    text-decoration: underline;
+}
+
+.hero-section3{
+    height: 90vh;
+    background-image: url(hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 60px;
+}
+
+.hero-section3 a {
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.hero-section3 a:hover {
+    text-decoration: underline;
+}
+
+.hero-section4{
+    background-color: white;
+}
+
+.box{
+    margin-top: 13px;
+    margin-left: 13px;
+    /* border:  1px solid red; */
+    height: 570px;
+    width: 48.5%;
+    padding-top: 40px;
+}
+.box h1{
+    font-size: 40px;
+}
+.box p{
+    padding-top: 6px;
+    font-size: 20px;
+}
+.box a{
+    color: #2997ff;
+    text-decoration: none;
+}
+.links-size a{
+    color: #2997ff;
+    text-decoration: none;
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+.box a:hover{
+    text-decoration: underline;
+}
+.boxes1{
+    display: flex;
+    position: relative;
+}
+#box1{
+    background-image: url(promo_switch_to_iphone__dcdfmymgd5ci_large.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    line-height: 40px;
+}
+#box2{
+    background-image: url(promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    line-height: 40px;
+    line-height: 30px;
+}
+
+#box3{
+    background-image: url(promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+    background-position: center;
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 60px;
+}
+#apple{
+    font-size: 35px;
+}
+#box3 h2{
+    font-size: 30px;
+}
+#red{
+    letter-spacing: 1px;
+    color: #C11F25;
+    font-size: 13px;
+}
+#box4{
+    background-image: url(promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box5{
+    background-image: url(promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+#box5 h1{
+    font-size: 37px;
+}
+
+#box6{
+    background-image: url(iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    background-position: center;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+}
+#box6 h1{
+    font-size: 35px;
+}
+
+.hero-section5{
+    background-color: black;
+    height: 550px;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 70px;
+    animation: loop 8s infinite ;
+}
+
+footer{
+    height: 700px;
+    background-color: #F5F5F7;
+    padding-inline: 150px;
+}
+.top{
+    width: 100%;
+    font-size: 12px;
+    color: #727171;
+    line-height: 15px;
+}
+.top p{
+    padding-top: 10px;
+}
+.line{
+    height: 1px;
+    background-color: #999797;
+    width: 100%;
+    margin-top: 20px;
+}
+.footer{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.low-bottom{
+    padding-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.ul1{
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+}
+#bold{
+    font-weight: bolder;
+}
+
+#ul1{
+    padding-right: 50px;
+}
+.last{
+    padding-left: 410px;
+}
+.bottom{
+    font-size: 12px;
+    color: #727171;
+}
+.bottom ul{
+    color: black;
+}
+.bottom a{
+    color: #2997ff;
+    padding-inline: 3px;
+
+}
+.last1{
+    padding-left: 30px;
+}
+
+
+
+
+
+@keyframes loop{
+    0%{
+        background-image: url(980x551.jpg);
+    }
+    15%{
+        background-image: url(980x551\ \(1\).jpg);
+    }
+    30%{
+        background-image: url(980x551\ \(2\).jpg);
+    }
+    45%{
+        background-image: url(980x551\ \(3\).jpg);
+    }
+    65%{
+        background-image: url(980x551\ \(4\).jpg);
+    }
+    85%{
+        background-image: url(980x551\ \(5\).jpg);
+    }
+    100%{
+        background-image: url(980x551\ \(6\).jpg);
+    }
+}
+
+@media (max-width: 768px) {
+    #icon{
+        display: block;
+    }
+    #icone-{
+        display: block;
+    }
+
+    nav li{
+        display: none;
+    }
+
+    .nav2 {
+      display: none;
+    }
+    .height h1{
+      font-size: 35px;
+      line-height: 35px;
+    }
+    .height p{
+        padding-top: 20px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    .hero-section{
+        height: auto;
+        width: 100%;
+    }
+    .hero-section2{
+        width: 100%;
+    }
+    .hero-section3{
+         width:auto;
+         height: 370px;
+         padding-top: 10px;
+         line-height: 40px;
+    }
+    .boxes1{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    #h1{
+        font-size: 35px;
+    }
+    #p{
+        font-size: 25px;
+    }
+    .box{
+        border-top: 1px solid black;
+        margin-left: 0px;
+        height: 450px;
+        width: 100%;
+        padding-top: 40px;
+        background-size: 100%;
+        background-position: top;
+    }
+    #box2{
+        background-position: center;
+        background-size: cover;
+    }
+    #box3{
+        padding-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #box4{
+        padding-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #box5{
+        padding-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    #box6{
+        padding-top: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-section5{
+        background-color: black;
+        height: 350px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        /* border: 1px solid red; */
+        /* margin-top: 50px; */
+        /* margin-left: 70px; */
+        animation: loop 8s infinite ;
+    }
+    .top{
+        display: none;
+    }
+    footer{
+        padding-inline: 0;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+        padding-left: 10px;
+    }
+    #ul1{
+        padding-inline: 10px;
+    }
+.bottom{
+    display: none;
+}
+}
